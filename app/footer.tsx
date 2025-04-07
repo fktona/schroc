@@ -53,7 +53,12 @@ export default function Footer() {
                 />
               </svg>
             </button>
-            <button className="p-[14px]">
+            <a
+              href="https://x.com/schrocatinger"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-[14px]"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -82,7 +87,7 @@ export default function Footer() {
                   />
                 </g>
               </svg>
-            </button>
+            </a>
           </div>
         </div>
       </div>

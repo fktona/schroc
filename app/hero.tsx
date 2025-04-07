@@ -272,7 +272,11 @@ export default function Hero() {
         </motion.div>
       </motion.div>
       <div className="absolute bottom-12 flex gap-[8.3px]  pb-[36px] md:gap-[33px] justify-center w-full md:justify-end px-[58px] z-20">
-        <a href="#">
+        <a
+          href="https://x.com/schrocatinger"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             alt="star"
             src="/x-twitter.svg"
