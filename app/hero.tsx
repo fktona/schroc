@@ -88,7 +88,7 @@ export default function Hero() {
               >
                 <Link
                   href="#"
-                  className="block px-4 py-2 text-[#FFC04A] hover:bg-[#586A9C]/90 rounded-full mt-3 text-center bg-[#586A9C]"
+                  className="block px-4 py-2 text-[#FFC04A] hover:bg-[#E16C99]/90 rounded-full mt-3 text-center bg-[#E16C99]"
                 >
                   Buy $SHRO
                 </Link>
@@ -102,7 +102,7 @@ export default function Hero() {
         </button>
       </nav>
       <div className="lg:text-[362px] md:text-[250px]  text-[118px] isolate w-full max-w-[1458px] mx-auto relative text-shadow text-[#FFC04A] font-shooting uppercase text-center leading-[196px]">
-        {Array.from("schro").map((char, index) => (
+        {Array.from("shro").map((char, index) => (
           <motion.span
             key={index}
             initial={{
@@ -301,7 +301,7 @@ export default function Hero() {
 
 export const Sliding = () => {
   return (
-    <div className="w-full lg:h-[150px] h-[53px] relative  bg-[#586A9C]  z-30 font-shooting text-[66px] flex  items-center justify-center overflow-hidden">
+    <div className="w-full lg:h-[150px] h-[53px] relative  bg-[#E16C99]  z-30 font-shooting text-[66px] flex  items-center justify-center overflow-hidden">
       <motion.div
         className="flex items-center lg:gap-[200px] gap-[100px]  w-full"
         animate={{
@@ -321,7 +321,7 @@ export const Sliding = () => {
           .map((_, index) => (
             <div key={index} className="flex items-center">
               <span className="lg:text-[66.5px] text-[23.61px] leading-[100%]">
-                SCHRO
+                SHRO
               </span>
               <Image
                 alt="cat"
